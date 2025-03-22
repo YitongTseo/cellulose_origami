@@ -1,7 +1,7 @@
 # To Speed Up Video
 
 ffmpeg -i 03.20.25_idx0.mov -filter:v "setpts=0.01*PTS" -an -r 30 03.20.25_idx0_100x.mov
-ffmpeg -i 03.12.25_idx0.mov -filter:v "setpts=0.5*PTS" -an -r 30 03.12.25_idx0_100x.mov
+ffmpeg -i 03.22.25_idx2_rehydration.mov -filter:v "setpts=0.01*PTS" -an -r 30 03.22.25_idx2_rehydration_100x.mov
 
 
 # TODO: flip the videos that need to be flipped...

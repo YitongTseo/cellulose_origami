@@ -1,4 +1,9 @@
 id,video_speed,temperature (C),backing_pellicle_thickness (mm),hydrophobin_pellicle_thickness (mm),bilayer_length (mm),is_parallel_test,is_control,dehydrating
+
+03.26.25 ... 20
+03.26.25 ... 15
+03.26.25 ... 15cm thick
+03.25.25_ix0_control,100x,120,2.6,0,20,False,True,True
 03.22.25_idx3_control_100x.mov,100x,120,4,0.0,20,True,True,True
 03.22.25_idx2_rehydration.mov,100x,70,3.3,0.3,20,False,False,False
 03.22.25_idx1_100x.mov,100x,90,3.3,0.3,20,False,False,Tru

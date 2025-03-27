@@ -3,5 +3,5 @@
 ffmpeg -i 03.20.25_idx0.mov -filter:v "setpts=0.01*PTS" -an -r 30 03.20.25_idx0_100x.mov
 ffmpeg -i 03.22.25_control.mov -filter:v "setpts=0.01*PTS" -an -r 30 03.22.25_idx3_control_100x.mov
 
-
+ffmpeg -i 03.26.25_idx1_control.mov -filter:v "setpts=0.01*PTS" -an -r 30 03.26.25_idx1_control_100x.mov
 # TODO: flip the videos that need to be flipped...

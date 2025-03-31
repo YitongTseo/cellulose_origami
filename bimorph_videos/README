@@ -5,3 +5,7 @@ ffmpeg -i 03.22.25_control.mov -filter:v "setpts=0.01*PTS" -an -r 30 03.22.25_id
 
 ffmpeg -i 03.31.25_idx1_control.mp4 -filter:v "setpts=0.01*PTS" -an -r 30 03.31.25_idx1_control_100x.mp4
 # TODO: flip the videos that need to be flipped...
+
+
+sudo LC_ALL=C sed -i '' 's/03.31.25_idx1_control/control_idx5/g' bimorph_videos/experiments_metadata.csv tracking_stitch_together.ipynb overlay.ipynb masked_trail.ipynb SAM_tracking.ipynb
+find cellulose_origami -depth -name "*3.31.25_idx1_control*" -exec bash -c 'mv "$0" "${0//3.31.25_idx1_control/control_idx5}"' {} \;

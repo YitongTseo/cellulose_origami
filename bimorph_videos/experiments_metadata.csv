@@ -10,6 +10,6 @@ bimorph_idx3_100x.mov,03.27.25,100x,120,1.1,0.3,20,False,True
 bimorph_idx2_100x.mov,100x,03.22.25,90,3.3,0.3,20,False,True
 bimorph_idx0_100x.mov,100x,03.21.25,120,2.3,0.3,15,False,True
 bimorph_idx1_100x.mov,100x,03.21.25,120,2.3,0.3,20,False,True
-rehydration_bimorph_idx5_100x.mov,03.31.25,100x,70,1.1,0.3,20,False,False
-rehydration_bimorph_idx2_100x.mov,03.22.25,100x,70,3.3,0.3,20,False,False
-rehydration_bimorph_idx0_100x.mov,03.22.25,100x,70,2.3,0.3,15,False,False
+rehydration_bimorph_idx5_100x.mov,03.31.25,100x,20,1.1,0.3,20,False,False
+rehydration_bimorph_idx2_100x.mov,03.22.25,100x,20,3.3,0.3,20,False,False
+rehydration_bimorph_idx0_100x.mov,03.22.25,100x,20,2.3,0.3,15,False,False

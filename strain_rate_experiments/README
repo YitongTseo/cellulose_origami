@@ -1,1 +1,4 @@
+
+ffmpeg -i drying_data/drying_120C_100x.mov -vf fps=16.667 drying_data/drying_120C_frames/frame%04d.png
 ffmpeg -i drying_take_2.mov -filter:v "setpts=0.01*PTS" -an -r 30 drying_take_2_100x.mov
+ffmpeg -i ../bimorph_videos/bimorph_idx0_100x.mov -vf fps=1.6667 bimorph_idx0_minute%03d.png

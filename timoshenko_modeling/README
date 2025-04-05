@@ -1,3 +1,0 @@
-
-ffmpeg -i ../bimorph_videos/bimorph_idx0_100x.mov -vf fps=1.6667 bimorph_idx0_minute%03d.png
-# 1.6667 so it's one frame every 0.6 seconds

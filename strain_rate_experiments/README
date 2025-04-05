@@ -1,0 +1,1 @@
+ffmpeg -i drying_take_2.mov -filter:v "setpts=0.01*PTS" -an -r 30 drying_take_2_100x.mov

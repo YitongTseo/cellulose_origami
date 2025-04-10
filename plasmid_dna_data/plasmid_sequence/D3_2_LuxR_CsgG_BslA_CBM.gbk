@@ -1,0 +1,105 @@
+LOCUS       D3_2_BslA_D3_2           0 bp DNA     linear   SYN 10-DEC-2024
+DEFINITION  .
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      
+  ORGANISM  
+REFERENCE   1  (bases 1 to 0)
+  AUTHORS   MIT
+  TITLE     Direct Submission
+  JOURNAL   Exported Apr 8, 2025 from SnapGene 7.2.1
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          join(1..0,1..0)
+     RBS             97..108
+                     /note="strong bacterial ribosome binding site (Elowitz and 
+                     Leibler, 2000)"
+                     /note="color: #a6acb3"
+     misc_feature    115..871
+                     /label=luxR
+                     /note="color: #a6acb3"
+     terminator      918..989
+                     /label=rrnB T1 terminator
+                     /note="transcription terminator T1 from the E. coli rrnB 
+                     gene"
+                     /note="color: #ffffff"
+     terminator      1005..1032
+                     /label=T7Te terminator
+                     /note="phage T7 early transcription terminator"
+                     /note="color: #ffffff"
+     misc_feature    1047..1106
+                     /label=pLux promoter
+                     /note="color: #a6acb3"
+     CDS             1160..1993
+                     /codon_start=1
+                     /label=CsgG
+                     /note="color: #a6acb3"
+     terminator      2006..2077
+                     /label=rrnB T1 terminator
+                     /note="transcription terminator T1 from the E. coli rrnB 
+                     gene"
+                     /note="color: #ffffff"
+     misc_feature    2126..2185
+                     /label=pLux promoter
+                     /note="color: #a6acb3"
+     RBS             2208..2219
+                     /note="strong bacterial ribosome binding site (Elowitz and 
+                     Leibler, 2000)"
+                     /note="color: #a6acb3"
+     misc_feature    2227..3240
+                     /label=N22_BslA_CBM_6xHis
+                     /note="color: #a6acb3"
+     CDS             3220..3237
+                     /codon_start=1
+                     /label=6xHis
+                     /note="color: #cc99b2"
+                     /product="6xHis affinity tag"
+     terminator      3259..3330
+                     /label=rrnB T1 terminator
+                     /note="transcription terminator T1 from the E. coli rrnB 
+                     gene"
+                     /note="color: #ffffff"
+     terminator      3346..3373
+                     /label=T7Te terminator
+                     /note="phage T7 early transcription terminator"
+                     /note="color: #ffffff"
+     terminator      3414..3508
+                     /label=lambda t0 terminator
+                     /note="transcription terminator from phage lambda"
+                     /note="color: #ffffff"
+     promoter        3556..3658
+                     /label=cat promoter
+                     /note="promoter of the E. coli cat gene encoding 
+                     chloramphenicol acetyltransferase"
+                     /note="color: #ffffff"
+     CDS             3659..4318
+                     /codon_start=1
+                     /gene="cat"
+                     /label=CmR
+                     /note="confers resistance to chloramphenicol"
+                     /note="color: #ccffcc"
+                     /product="chloramphenicol acetyltransferase"
+     oriT            4467..4575
+                     /note="incP origin of transfer"
+                     /note="color: #a6acb3"
+     CDS             complement(4586..5248)
+                     /codon_start=1
+                     /label=pBBR1 Rep
+                     /note="color: #993366"
+                     /product="replication protein for the broad-host-range 
+                     plasmid pBBR1 from Bordetella bronchiseptica"
+     rep_origin      5249..6020
+                     /label=pBBR1 oriV
+                     /note="replication origin of the broad-host-range plasmid 
+                     pBBR1 from Bordetella bronchiseptica; requires the pBBR1 
+                     Rep protein for replication"
+                     /note="color: #ffff00"
+     terminator      complement(6160..6246)
+                     /gene="Escherichia coli rrnB"
+                     /label=rrnB T1 terminator
+                     /note="transcription terminator T1 from the E. coli rrnB 
+                     gene"
+                     /note="color: #ffffff"
+ORIGIN
+//

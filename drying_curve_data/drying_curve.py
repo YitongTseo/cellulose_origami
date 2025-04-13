@@ -64,6 +64,9 @@ def drying_curve_fit(filepaths, starting_index, extrapolate = False,
     y_index = xs.index(vline)
     plt.plot([vline, vline], [0, ys[y_index] ], linestyle='--', color=color, zorder=2)
 
+    #print the average y value past vline
+    print(f"Equilibrium for {label} is {np.average(ys[y_index:])}")
+
 
 legend_labels = ["Untreated WT", "BslA Activated", "WT NaOH Rehydrated"]
 filepaths = [r"json_drying_data\WT_Untreated.json"]
@@ -78,6 +81,10 @@ filepaths = [r"json_drying_data\WT_NaOH.json"]
 drying_curve_fit(filepaths, starting_index = 96, label = legend_labels[2],
                   color='#dd9789', linewidth = 2, vline = 90)
 
+# Equilibrium for Untreated WT is 0.1781675639229501
+# Equilibrium for BslA Activated is 0.90421924502062
+# Equilibrium for WT NaOH Rehydrated is 0.7363704366317478
+
 # Ticks and grid
 ax.tick_params(axis='both', which='major', labelsize=10, width=1, length=4)
 ax.set_xlim([0, 1200])
@@ -90,7 +97,7 @@ ax.spines['right'].set_visible(False)
 
 # Tight layout and save (optional)
 plt.tight_layout()
-# plt.savefig('curvature_plot_styled.pdf', bbox_inches='tight', dpi=300)
+#plt.savefig('curvature_plot_test.png', bbox_inches='tight', dpi=300)
 plt.savefig('drying_plot.png', bbox_inches='tight', dpi=300)
 
 plt.show()

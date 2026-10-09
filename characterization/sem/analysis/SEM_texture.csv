@@ -1,0 +1,5 @@
+file,sample,magnification,um_per_px,contrast_pct,orientation_coherence,correlation_length_um
+03.28.25_SEM_Control.jpg,Untreated WT BC,300x,0.436,3.6,0.17,7.4
+03.28.25_SEM_BslA_engineered.jpg,NaOH-treated BslA-activated BC,300x,0.436,5.0,0.3,5.7
+03.28.25_SEM_Control_2.jpg,Untreated WT BC,1500x,0.087,9.5,0.34,1.5
+03.28.25_SEM_BslA_engineered_2.jpg,NaOH-treated BslA-activated BC,1200x,0.109,8.0,0.3,2.0

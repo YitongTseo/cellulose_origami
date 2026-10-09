@@ -1,0 +1,4 @@
+sample,instrument_label,at_source,C_at,O_at,N_at,O_C,N_C,C1s_CC,C1s_CO,C1s_OCO_amide,O1s_CO_amide,O1s_CO,N1s_amide,N1s_NH3,charge_shift_eV
+WT untreated,WT untreated,MultiPak,72.67,23.53,3.80,0.32,0.05,60.78,31.54,7.68,26.87,73.13,95.44,4.56,1.80
+WT NaOH treated,WT NaOH treated,this script,63.25,36.10,0.65,0.57,0.01,28.90,54.33,16.77,0.00,100.00,80.12,19.88,3.84
+BslA NaOH treated,BslA NaOH treated,MultiPak,58.55,34.27,7.17,0.59,0.12,28.26,53.14,18.60,31.18,68.82,87.05,12.95,2.44

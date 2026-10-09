@@ -1,0 +1,4 @@
+sample,file,OH_pos,CH2_pos,TCI,LOI,HBI,amideI_1030,amideII_1030,amideI_pos
+WT untreated,WT_untreated,3342.03,1428.03,0.22,2.76,1.97,0.27,0.11,1649.80
+WT NaOH treated,WT_NaOH_treated,3344.93,1427.55,0.29,3.16,2.28,0.16,0.06,1649.80
+BslA NaOH treated,BslA_NaOH_treated,3342.52,1421.76,0.07,nan,1.30,0.39,0.14,1630.52

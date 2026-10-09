@@ -1,1 +1,8 @@
 sam_b.pt
+.DS_Store
+~$*
+__pycache__/
+
+# manuscript working files - not part of the data release
+Fronteirs_submission_origami_BC/
+Self-Folding Origami Revisions.pdf

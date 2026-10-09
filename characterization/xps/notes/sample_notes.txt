@@ -1,0 +1,35 @@
+from the image.png, we see the different samples:
+
+48 hrs --> most likely the BslA coated sample
+strips round --> Not entirely sure
+strips square --> Not entirely sure
+Control --> control is the wild type strain
+Day 0 --> this might the be NaOH one? (without BslA)
+
+
+our revisions rodampa plan:
+
+
+Dear Dr. Sundaravadanam,
+
+Thank you for handling our manuscript. We are working through the reviewer's comments and would like to (1) share our planned revision scope to check that it is responsive, and (2) request an extension to [31 October].
+
+We find the reviewer's comments well-founded, particularly regarding verification of BslA-CBM secretion and the absence of surface chemistry characterization. Our planned additions:
+
+Surface chemistry and protein detection. XPS across three sample arms (untreated wild-type, NaOH-treated wild-type, and NaOH-treated engineered BC). Because cellulose contains only carbon, hydrogen, and oxygen, the N 1s signal provides a quantitative, surface-localized measure of protein deposition; we will acquire Cl 2p in parallel to control for selection-antibiotic carryover. ATR-FTIR will test our stated assumption that 0.1 M NaOH does not induce a cellulose I to II transition, via the standard lateral-order and total-crystallinity indices.
+
+From existing data. Young's modulus, elongation at break, and toughness extracted from our tensile curves; quantitative SEM analysis (fiber diameter distributions, pore size, porosity) with statistics; sample sizes reported throughout; environmental conditions specified for the dehydration protocols.
+
+Text revisions. Novelty claims softened to "to the best of our knowledge" throughout, including the abstract; clarified terminology distinguishing one-time self-folding from cyclic actuation; updated references and conclusions.
+
+Out of scope. Extended mechanical characterization (DMA, cyclic loading, fatigue, creep) and long-term aging studies fall outside what we can complete for this revision, and we would propose framing these as future work. We should also note a practical constraint: both lead authors have left the originating laboratory, so new strain construction and culture work is not currently feasible.
+
+Where the new data do not support our current framing, we will scope the claims accordingly, including reporting negative results explicitly and, if warranted, presenting the work as a self-folding biofabrication strategy rather than a genetically programmed one.
+
+Our question is whether this scope seems responsive to the reviewer's concerns, and whether there are particular points you would have us prioritize.
+
+With thanks for your time,
+
+Yitong Tseo
+on behalf of all authors
+
